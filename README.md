@@ -25,7 +25,4 @@ However, this format is not supported by regular markdown and thus not active in
 
 - Scan the text and find block identifer (e.g. `^1d4f8d` or `^block-1` etc.).
 - Convert the block identifer to the anchor element. (e.g. `1d4f8d` to `<a id="1d4f8d"></a>`)
-- Now you can use the block identifer in markdown in-text links. (e.g. "As mentioned in [the first paragraph](#1d4f8d), blah blah blah.")
-
-
-
+- Now you can use the block identifer in markdown in-text links. (e.g. "As mentioned in `[the first paragraph](#1d4f8d)`, blah blah blah.")
